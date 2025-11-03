@@ -8,8 +8,8 @@ st.set_page_config(
     layout="centered"
 )
 
-# タイトル
-st.title("🍽 今日のお店を決めよう！")
+# 小さめのタイトル（HTMLを使ってサイズ変更）
+st.markdown("<h3 style='text-align: center;'>🍽 今日のお店を決めよう！</h3>", unsafe_allow_html=True)
 
 # ジャンル選択
 cuisine = st.radio("ジャンルを選んでください", ["居酒屋", "洋食屋", "カフェ"])
