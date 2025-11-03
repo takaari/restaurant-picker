@@ -1,9 +1,9 @@
 [theme]
-base="light"
+base = "light"
 
 [server]
-headless=true
+headless = true
 
 [ui]
-favicon = "restaurant-picker.png"
+favicon = "../restaurant-picker.png"
 page_title = "レストランピッカー"
