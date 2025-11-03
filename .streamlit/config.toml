@@ -1,0 +1,9 @@
+[theme]
+base="light"
+
+[server]
+headless=true
+
+[ui]
+favicon = "restaurant-picker.png"
+page_title = "レストランピッカー"
