@@ -12,7 +12,8 @@ restaurants = {
 }
 
 if st.button("おすすめを表示！"):
-    st.success(f"おすすめは「{random.choice(restaurants[cuisine])}」です！")
+    shop = random.choice(restaurants[cuisine])
+    st.success(f"おすすめは「{shop}」です！")
 
-    google_map_url = f"https://www.google.com/maps/search/{random.choice(restaurants[cuisine])}"
+    google_map_url = f"https://www.google.com/maps/search/{shop}"
     st.markdown(f"[📍 Googleマップで開く]({google_map_url})")
