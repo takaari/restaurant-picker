@@ -4,7 +4,7 @@ import random
 # ✅ ページ設定（← これを最初に追加！）
 st.set_page_config(
     page_title="レストランピッカー",        # タブのタイトル
-    page_icon="restaurant-picker2.png",       # タブのアイコン画像
+    page_icon="restaurant-picker3.png",       # タブのアイコン画像
     layout="centered"
 )
 
