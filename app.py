@@ -31,4 +31,4 @@ if st.button("おすすめを表示！"):
     st.markdown(f"[📍 Googleマップで開く]({google_map_url})")
     
 # （おまけ）アイコン画像をアプリ内にも表示
-st.image("restaurant-picker2.png", width=360)
+st.image("restaurant-picker3.png", width=360)
