@@ -1,5 +1,6 @@
 import streamlit as st
 import random
+import urllib.parse
 
 # ✅ ページ設定（← これを最初に追加！）
 st.set_page_config(
