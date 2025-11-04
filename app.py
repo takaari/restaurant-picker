@@ -26,8 +26,9 @@ if st.button("おすすめを表示！"):
     shop = random.choice(restaurants[cuisine])
     st.success(f"おすすめは「{shop}」です！")
 
-    google_map_url = f"https://www.google.com/maps/search/{shop}"
+    encoded_shop = urllib.parse.quote(shop)
+    google_map_url = f"https://www.google.com/maps/search/?api=1&query={encoded_shop}"
     st.markdown(f"[📍 Googleマップで開く]({google_map_url})")
-
+    
 # （おまけ）アイコン画像をアプリ内にも表示
 st.image("restaurant-picker2.png", width=360)
